@@ -1,0 +1,80 @@
+/* Variáveis para padronizar valores */
+:root {
+    --cor-principal: #1e1e50;
+    --cor-secundaria: #4a4a9c;
+    --cor-texto: #ffffff;
+    --tamanho-titulo: 32px;
+    --tamanho-subtitulo: 24px;
+    --tamanho-texto: 16px;
+}
+
+/* Estilo geral do corpo */
+body {
+    background-color: var(--cor-principal);
+    color: var(--cor-texto);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Cabeçalho */
+.cabecalho {
+    margin-bottom: 20px;
+}
+
+.titulo-principal {
+    font-size: var(--tamanho-titulo);
+    color: #ffd700;
+}
+
+/* Seções */
+.secao-introducao,
+.secao-imagem,
+.secao-acao {
+    background-color: var(--cor-secundaria);
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 10px;
+}
+
+.subtitulo {
+    font-size: var(--tamanho-subtitulo);
+    margin-bottom: 10px;
+}
+
+.texto {
+    font-size: var(--tamanho-texto);
+}
+
+/* Imagem */
+.imagem-espaco {
+    width: 80%;
+    border-radius: 10px;
+}
+
+/* Botão */
+.botao {
+    background-color: #ffd700;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.botao:hover {
+    background-color: #ffe45c;
+}
+
+/* Link externo */
+.link-externo {
+    color: #00eaff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.link-externo:hover {
+    text-decoration: underline;
+}
